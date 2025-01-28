@@ -45,6 +45,6 @@ try {
 });
 
 authRouter.get("/", (req, res)=> {
-res.send("Hey there from Auth!🎀. This is the auth route.");
+res.send("Hey there from Auth!😁✨. This is the auth route.");
 });
 export default authRouter;

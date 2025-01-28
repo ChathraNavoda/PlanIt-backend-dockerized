@@ -3,4 +3,4 @@ WORKDIR /app
 COPY . .
 RUN npm install
 EXPOSE 8000
-CMD ["npx", "nodemon"]
+CMD ["npm", "run", "dev"]
